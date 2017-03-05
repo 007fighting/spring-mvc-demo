@@ -24,6 +24,7 @@ public class StudentController {
         modelMap.addAttribute("id", student.getId());
         modelMap.addAttribute("name", student.getName());
         modelMap.addAttribute("age", student.getAge());
+        modelMap.addAttribute("password", student.getPassword());
         return "/formpages/result";
     }
 }

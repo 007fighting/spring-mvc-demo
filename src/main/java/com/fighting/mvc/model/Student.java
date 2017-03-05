@@ -9,6 +9,16 @@ public class Student {
     private String name;
     private Integer age;
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    private String password;
+
     public Integer getId() {
         return id;
     }

@@ -13,24 +13,9 @@
   </head>
 
   <body>
-    <h2>Student Infomation</h2>
-    <table>
-      <tr>
-        <td>Id：</td>
-        <td>${id}</td>
-      </tr>
-      <tr>
-        <td>Name：</td>
-        <td>${name}</td>
-      </tr>
-      <tr>
-        <td>Age：</td>
-        <td>${age}</td>
-      </tr>
-      <tr>
-        <td>Password: </td>
-        <td>${password}</td>
-      </tr>
-    </table>
+    <h2>Click the button below to go to a static page</h2>
+    <form:form method="GET" action="/formdemo/goToStaticPage">
+      <input type="submit" value="Go To A Static Page"/>
+    </form:form>
   </body>
 </html>
